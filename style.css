@@ -1,0 +1,81 @@
+/* mengatur warna background */
+body {
+    background: #f7f7fb;
+}
+
+/* Mengatur tampilan warna huruf*/
+.h1 {
+    color: #090b37;
+}
+
+/* Mengatur tampilan background warna dan ukuran*/
+.text {
+    background-color: #c6f6d5;
+    width: 380px;
+}
+
+/* Mengatur tampilan input form */
+.form-control {
+    margin-bottom: 10px;
+    max-width: 300px;
+}
+
+/* Mengatur tampilan label yang terdapat pada input form */
+.form-control label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Mengatur tampilan dari select box, input text, dan textarea */
+.form-control select,
+.form-control input[type="text"],
+.form-control textarea {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Mengatur tampilan tombol untuk menambahkan data pada form */
+.btn-add-data {
+    background-color: #38a169;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    float: left;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Membuat baris sejajar kiri */
+.label {
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 10px;
+    background-color: #edf2f7;
+}
+
+/* Style untuk tombol kembali */
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #c62828;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+/* Hover Button */
+.back-button:hover {
+    background-color: #b71c1c;
+}
+
+/* Style untuk tampilan container */
+.container {
+    margin: 20px;
+}
